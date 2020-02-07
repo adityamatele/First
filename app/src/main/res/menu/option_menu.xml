@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/bluetooth"
+        android:title="bluetooth"
+        android:icon="@drawable/ic_bluetooth"
+        app:showAsAction="ifRoom"/>
+        <item android:id="@+id/file"
+            android:title="file"/>
+        <item android:id="@+id/edit"
+            android:title="edit">
+        <menu>
+            <item android:id="@+id/cut"
+                android:title="cut"/>
+            <item android:id="@+id/copy"
+                android:title="copy"/>
+            <item android:id="@+id/paste"
+                android:title="paste"/>
+        </menu>
+        </item>
+
+</menu>
